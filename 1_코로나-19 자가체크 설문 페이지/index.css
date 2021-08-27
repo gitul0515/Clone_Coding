@@ -43,7 +43,7 @@ body {
     display: inline-block;
     border: 1px #d3d3d3 solid;
     margin-top: 15px;
-    width: 60%;
+    width: 647.5px;
     height: auto;
     position: relative;
     left: 20%; 
@@ -88,10 +88,13 @@ input[type="submit"]:hover {
 }
 .footer {
     border-top: 1.25px #d9d3d3 solid;
-    width: 60%;
+    width: 647.5px;
     height: 37px;
     margin: 27px auto;
     font-size: 8px;
     color: #9b9797;
     padding: 30px 4px 10px;
+}
+.contents_questionnaire>div>p {
+    white-space: pre;
 }
