@@ -1,0 +1,31 @@
+div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#blogMenu {
+    float: right;
+    margin: 0 5px 3px 5px;
+    padding: 0 0 3px 0;
+    border-radius: 3px;
+    background-color: #5c5c5c;
+}
+
+#blogMenu ul li {
+    float:left;
+    list-style-type: none;
+}
+
+#blogMenu a {
+    height: 16px;
+    color: #f1f1f1;
+    font-family: arial;
+    font-size:12px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+#blogMenu a:hover {
+    color: #D4F4FA;
+    border-bottom: 3px solid #FAED7D;
+}

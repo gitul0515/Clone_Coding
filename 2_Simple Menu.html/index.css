@@ -6,23 +6,31 @@ nav {
     position: relative;
     top: 30%;
     left: 50%;
-    margin-left: -400px;
+    margin-left: -341px;
     margin-top: -75px;
 
-    width: 800px;
-    height: 200px;
+    display: inline-block;
+    width: 682px;
+    height: 100px;
 }
 .nav-items {
+    width: 682px;
+    height: 80px;
+    padding-left: 0;
     background-color: #262a30;
-    padding-left: 55px;
 }
 .nav-items>li {
     list-style: none;
     display: inline-block;
-    padding: 30px 25px;
 }
 .nav-items>li>a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    line-height: 80px;
+    padding: 30px 25px;
+}
+.nav-items>li>a:hover {
+    background-color: rgb(50, 147, 185);
+    text-decoration: underline;
 }
